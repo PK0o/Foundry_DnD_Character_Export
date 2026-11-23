@@ -1,0 +1,61 @@
+{
+  "dnd5e-pdf-export": {
+    "Button": "Als PDF-Charakterbogen exportieren",
+    "ButtonShort": "PDF",
+    "Working": "PDF-Charakterbogen wird erstellt …",
+    "Done": "PDF erstellt",
+    "Appendix": "Zusätzliche Notizen",
+    "Continued": "(Fortsetzung)",
+    "Page": "Seite",
+    "Senses": "Sinne",
+    "Movement": "Bewegung",
+    "Resistances": "Resistenzen",
+    "Immunities": "Immunitäten",
+    "Vulnerabilities": "Anfälligkeiten",
+    "ConditionImmunities": "Zustandsimmunitäten",
+    "Other": "Sonstiges",
+    "Appearance": "Aussehen",
+    "Cantrip": "Zaubertrick",
+    "Cantrips": "Zaubertricks",
+    "SpellLevel": "Grad {level}",
+    "SpellAttackLine": "Zauberangriff {attack}, Zauber-SG {dc}",
+    "Mark": { "Ritual": "R", "Concentration": "K", "Pact": "P", "Prepared": "vorbereitet" },
+    "Prof": { "Armor": "Rüstungen", "Weapons": "Waffen", "Tools": "Werkzeuge", "Languages": "Sprachen" },
+    "Section": {
+      "Attacks": "Angriffe & Zauberwirken",
+      "Traits": "Persönlichkeitsmerkmale",
+      "Ideals": "Ideale",
+      "Bonds": "Bindungen",
+      "Flaws": "Makel",
+      "Proficiencies": "Übung & Sprachen",
+      "Equipment": "Ausrüstung",
+      "Treasure": "Schätze",
+      "Features": "Merkmale & Eigenschaften",
+      "FeatureDescriptions": "Merkmale – Beschreibungen",
+      "SpellDescriptions": "Zauber – Beschreibungen",
+      "MoreSpells": "Weitere Zauber",
+      "Backstory": "Hintergrundgeschichte"
+    },
+    "Dialog": {
+      "Title": "PDF-Export",
+      "Intro": "Der Charakter wird in den offiziellen D&D-5E-Charakterbogen eingetragen.",
+      "portrait": "Porträt einfügen",
+      "featureDescriptions": "Beschreibungen der Merkmale im Anhang",
+      "spellDescriptions": "Beschreibungen der Zauber im Anhang",
+      "flatten": "Formular fixieren (danach nicht mehr bearbeitbar)",
+      "Export": "Exportieren",
+      "Cancel": "Abbrechen"
+    },
+    "Settings": {
+      "Template": {
+        "Name": "PDF-Vorlage",
+        "Hint": "Ausfüllbarer Charakterbogen mit den Feldnamen des offiziellen WotC-5E-Bogens. Standard: mitgelieferte Vorlage."
+      }
+    },
+    "Error": {
+      "NotCharacter": "Nur Spielercharaktere, die du sehen darfst, können exportiert werden.",
+      "Template": "PDF-Vorlage konnte nicht geladen werden",
+      "Failed": "PDF-Export fehlgeschlagen"
+    }
+  }
+}

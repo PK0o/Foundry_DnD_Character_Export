@@ -1,0 +1,50 @@
+{
+  "id": "dnd5e-pdf-export",
+  "title": "D&D 5e PDF Character Export",
+  "description": "Exports dnd5e player characters into the official form-fillable D&D 5E character sheet (PDF), including spells, portrait and an optional appendix.",
+  "version": "1.0.0",
+  "url": "https://github.com/PK0o/Foundry_DnD_Character_Export",
+  "manifest": "https://github.com/PK0o/Foundry_DnD_Character_Export/releases/latest/download/module.json",
+  "download": "https://github.com/PK0o/Foundry_DnD_Character_Export/releases/download/v1.0.0/module.zip",
+  "readme": "https://github.com/PK0o/Foundry_DnD_Character_Export#readme",
+  "bugs": "https://github.com/PK0o/Foundry_DnD_Character_Export/issues",
+  "authors": [
+    {
+      "name": "PK0o",
+      "url": "https://github.com/PK0o"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "lib/pdf-lib.min.js"
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}

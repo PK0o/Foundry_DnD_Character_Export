@@ -1,0 +1,61 @@
+{
+  "dnd5e-pdf-export": {
+    "Button": "Export as PDF character sheet",
+    "ButtonShort": "PDF",
+    "Working": "Building PDF character sheet …",
+    "Done": "PDF created",
+    "Appendix": "Additional Notes",
+    "Continued": "(continued)",
+    "Page": "Page",
+    "Senses": "Senses",
+    "Movement": "Movement",
+    "Resistances": "Resistances",
+    "Immunities": "Immunities",
+    "Vulnerabilities": "Vulnerabilities",
+    "ConditionImmunities": "Condition immunities",
+    "Other": "Other",
+    "Appearance": "Appearance",
+    "Cantrip": "Cantrip",
+    "Cantrips": "Cantrips",
+    "SpellLevel": "Level {level}",
+    "SpellAttackLine": "Spell attack {attack}, spell save DC {dc}",
+    "Mark": { "Ritual": "R", "Concentration": "C", "Pact": "P", "Prepared": "prepared" },
+    "Prof": { "Armor": "Armor", "Weapons": "Weapons", "Tools": "Tools", "Languages": "Languages" },
+    "Section": {
+      "Attacks": "Attacks & Spellcasting",
+      "Traits": "Personality Traits",
+      "Ideals": "Ideals",
+      "Bonds": "Bonds",
+      "Flaws": "Flaws",
+      "Proficiencies": "Proficiencies & Languages",
+      "Equipment": "Equipment",
+      "Treasure": "Treasure",
+      "Features": "Features & Traits",
+      "FeatureDescriptions": "Features – Descriptions",
+      "SpellDescriptions": "Spells – Descriptions",
+      "MoreSpells": "More Spells",
+      "Backstory": "Character Backstory"
+    },
+    "Dialog": {
+      "Title": "PDF Export",
+      "Intro": "The character will be filled into the official D&D 5E character sheet.",
+      "portrait": "Include portrait",
+      "featureDescriptions": "Append feature descriptions",
+      "spellDescriptions": "Append spell descriptions",
+      "flatten": "Flatten form (no longer editable)",
+      "Export": "Export",
+      "Cancel": "Cancel"
+    },
+    "Settings": {
+      "Template": {
+        "Name": "PDF template",
+        "Hint": "Form-fillable sheet using the field names of the official WotC 5E sheet. Default: bundled template."
+      }
+    },
+    "Error": {
+      "NotCharacter": "Only player characters you can view can be exported.",
+      "Template": "Could not load the PDF template",
+      "Failed": "PDF export failed"
+    }
+  }
+}
